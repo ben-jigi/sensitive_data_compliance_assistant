@@ -10,7 +10,7 @@ patterns={
 
     "Aadhaar Number": r"\b\d{4}\s?\d{4}\s?\d{4}\b",
 
-    "Credit Card": r"\b(?:\d[ -]*?){13,16}\b",
+    "Credit Card": r"\b(?:\d{4}[- ]?){3}\d{4}\b",
 
     "Employee ID": r"\b(?:EMP|ID)[-_]?\d+\b",
 
